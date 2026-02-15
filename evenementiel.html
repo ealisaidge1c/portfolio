@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Évènementiel – elakhyf</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">elakhyf</div>
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="sport.html">Sport</a>
+        <a href="portrait.html">Portrait</a>
+        <a href="paysage.html">Paysage</a>
+        <a href="animaux-nature.html">Animaux & nature</a>
+        <a href="evenementiel.html">Évènementiel</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section section-alt">
+    <div class="container">
+      <h2>Évènementiel</h2>
+      <p>Soirées, spectacles et événements associatifs.</p>
+
+      <div class="grid">
+        <div class="card-image">
+          <img src="images/event1.jpg" alt="Évènement 1">
+        </div>
+
+        <div class="card-image">
+          <img src="images/event2.jpg" alt="Évènement 2">
+        </div>
+
+        <div class="card-image">
+          <img src="images/event3.jpg" alt="Évènement 3">
+        </div>
+
+        <!-- Images supplémentaires -->
+        <!--
+        <div class="card-image">
+          <img src="images/event4.jpg" alt="Évènement 4">
+        </div>
+        -->
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> elakhyf – Portfolio.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

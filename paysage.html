@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Paysage – elakhyf</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">elakhyf</div>
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="sport.html">Sport</a>
+        <a href="portrait.html">Portrait</a>
+        <a href="paysage.html">Paysage</a>
+        <a href="animaux-nature.html">Animaux & nature</a>
+        <a href="evenementiel.html">Évènementiel</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section section-alt">
+    <div class="container">
+      <h2>Paysage</h2>
+      <p>Paysages urbains et naturels.</p>
+
+      <div class="grid">
+        <a href="#SKI" class="card-image">
+        <img src="images/SKI.jpg" alt="SKI">
+        </a>
+
+        <div id="SKI" class="lightbox">
+        <a href="#close" class="lightbox__close"></a>
+        <img src="images/SKI.jpg" alt="SKI">
+        </div>
+
+        <a href="#soleil" class="card-image">
+        <img src="images/soleil.jpg" alt="soleil">
+        </a>
+
+        <div id="soleil" class="lightbox">
+        <a href="#close" class="lightbox__close"></a>
+        <img src="images/soleil.jpg" alt="soleil">
+        </div>
+
+        <a href="#SKI2" class="card-image">
+        <img src="images/SKI2.jpg" alt="SKI2">
+        </a>
+
+        <div id="SKI2" class="lightbox">
+        <a href="#close" class="lightbox__close"></a>
+        <img src="images/SKI2.jpg" alt="SKI2">
+        </div>
+
+        <a href="#SKI3" class="card-image">
+        <img src="images/SKI3.jpg" alt="SKI3">
+        </a>
+
+        <div id="SKI3" class="lightbox">
+        <a href="#close" class="lightbox__close"></a>
+        <img src="images/SKI3.jpg" alt="SKI3">
+        </div>
+
+        <a href="#SKI4" class="card-image">
+        <img src="images/SKI4.jpg" alt="SKI4">
+        </a>
+
+        <div id="SKI4" class="lightbox">
+        <a href="#close" class="lightbox__close"></a>
+        <img src="images/SKI4.jpg" alt="SKI4">
+        </div>
+        <!-- Images supplémentaires -->
+        <!--
+        <div class="card-image">
+          <img src="images/paysage4.jpg" alt="Paysage 4">
+        </div>
+        -->
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> elakhyf – Portfolio.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
